@@ -112,3 +112,22 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     padding-top: 35px;
   }
 }
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.figure {
+  background: #eee;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 1em;
+}
+
+.figure .figureItem img {
+	width: 200px;
+	height: 150px;	 
+	padding: 10px;
+}

@@ -1,13 +1,10 @@
 $(document).ready(function(){
 
     $(document).foundation();
-    // $(".lazy").slick({
-    //   infinite: true,
-    //   autoplay: true,
-    //   dots: true,
-    // });
+    $('#lightgallery').lightGallery({
+      pager: true
+    });
 });
-
 var s = skrollr.init({
   edgeStrategy: 'set',
   easing: {

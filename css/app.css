@@ -21,32 +21,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     display: block;
 }
 
-#progress {
-	height:2%;
-	background:#444;
-	bottom:0;
-	z-index:200;
-}
-
-#bg1, #bg2, #bg3 {
-	z-index:50;
-	top:0;
-	left:0;
-	width:100%;
-	height:100%;
-	background:url(images/bubbles.png) repeat 0 0;
-}
-
-#bg2 {
-	z-index:49;
-	background-image:url(images/bubbles2.png);
-}
-
-#bg3 {
-	z-index:48;
-	background-image:url(images/bubbles3.png);
-}
-
 .skrollable {
 	/*
 	 * First-level skrollables are positioned relative to window
@@ -128,6 +102,15 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 .figure .figureItem img {
 	width: 200px;
-	height: 150px;	 
+	height: 150px;
 	padding: 10px;
+}
+
+.raleway {
+	font-family: 'Raleway', sans-serif !important;
+}
+
+.bilbo {
+	font-family: 'Bilbo', cursive !important;
+	font-size: -webkit-xxx-large;
 }
